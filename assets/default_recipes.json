@@ -1,0 +1,10 @@
+[
+  {
+    "id": "1",
+    "title": "Pasta",
+    "description": "A simple pasta dish",
+    "ingredients": "Pasta, sauce",
+    "instructions": "Boil pasta, add sauce",
+    "imageUrl": "assets/images/pasta.jpg"
+  }
+]
