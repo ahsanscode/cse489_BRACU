@@ -1,0 +1,61 @@
+name: bangladesh_map_app
+description: A Flutter application for managing geographic entities on a map centered on Bangladesh with CRUD operations via REST API.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # UI Components
+  cupertino_icons: ^1.0.6
+  cached_network_image: ^3.3.0
+  
+  # State Management
+  provider: ^6.0.5
+  
+  # Maps and Location
+  flutter_map: ^6.0.1
+  latlong2: ^0.9.0
+  geolocator: ^10.1.0
+  
+  # API and Networking
+  http: ^1.1.0
+  dio: ^5.3.3
+  
+  # Image Processing
+  image_picker: ^1.0.4
+  flutter_image_compress: ^2.0.4
+  path_provider: ^2.1.1
+  path: ^1.8.3
+  uuid: ^4.1.0
+  
+  # Utilities
+  intl: ^0.18.1
+  permission_handler: ^11.0.1
+  connectivity_plus: ^5.0.1
+  fluttertoast: ^8.2.4
+  shared_preferences: ^2.2.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  
+  assets:
+    - assets/images/
+  
+#  fonts:
+#    - family: Roboto
+#      fonts:
+#        - asset: assets/fonts/Roboto-Regular.ttf
+#        - asset: assets/fonts/Roboto-Bold.ttf
+#          weight: 700
+#        - asset: assets/fonts/Roboto-Light.ttf
+#          weight: 300
